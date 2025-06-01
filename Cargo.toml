@@ -1,0 +1,12 @@
+[package]
+name = "prefix_sort"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+criterion = { version = "0.6.0", features = ["html_reports"] }
+rand = "0.9.1"
+
+[[bench]]
+name = "sort"
+harness = false
